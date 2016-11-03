@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'FontAwesomeJiraCopy';
+    src: url('chrome-extension://__MSG_@@extension_id__/fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+._jira-copy-button_ {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: text-top;
+    font: normal normal normal 14px/1 FontAwesomeJiraCopy;
+    font-size: 12px;
+    padding: 1px;
+    border: 1px solid #999;
+    background: white;
+    color: #999;
+    text-rendering: auto;
+    border-radius: 3px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    box-sizing: border-box;
+    cursor: pointer;
+    position: relative;
+}
+
+._jira-copy-button_:hover {
+    border-color: #333;
+    color: #333;
+}
+
+._jira-copy-button_:before {
+    content: "\f0c5";
+}
+
+._jira-copy-message_ {
+    position: absolute;
+    left: 20px;
+    top: -5px;
+    background: white;
+    padding: 3px;
+    font-size: 13px;
+    font-family: sans-serif;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    white-space: nowrap;
+}

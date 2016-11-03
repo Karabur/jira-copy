@@ -36,7 +36,7 @@
         opacity: 0;
     }
 
-    10% {
+    20% {
         opacity: 1;
     }
 
@@ -50,7 +50,7 @@
 }
 
 ._jira-copy-message_ {
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-name: _jira-copy-fadeinout;
     position: absolute;
     opacity: 0;

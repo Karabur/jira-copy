@@ -18,7 +18,7 @@ function showCopyMessage(text, button) {
 	msg.innerText = 'Copied: '+ text
 	setTimeout(() => {
 		button.removeChild(msg)
-	}, 2500)
+	}, 1500)
 }
 
 function initCopy() {
